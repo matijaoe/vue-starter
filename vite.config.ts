@@ -6,7 +6,6 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     VueMacros({
@@ -16,7 +15,6 @@ export default defineConfig({
         }),
       },
     }),
-
     AutoImport({
       imports: [
         'vue',
@@ -30,11 +28,9 @@ export default defineConfig({
       ],
       dts: './src/auto-imports.d.ts',
     }),
-
     Components({
       dts: './src/components.d.ts',
     }),
-
     Unocss(),
   ],
   resolve: {
