@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 const route = useRoute()
-
 const name = computed(() => route.params.name)
 </script>
 

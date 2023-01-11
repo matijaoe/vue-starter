@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-
-</script>
-
 <template>
   <div max-w-lg mx-auto>
     <p>This is an about page</p>
