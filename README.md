@@ -16,11 +16,9 @@
   
 - 🍍 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue.
 
-
-
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-- 😃 Use any icons with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
+- 😃 Use any icon with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
 
 - 🦾 TypeScript
 
