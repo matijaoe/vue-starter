@@ -5,7 +5,7 @@ import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
-
+import Pages from 'vite-plugin-pages'
 export default defineConfig({
   plugins: [
     VueMacros({
@@ -15,11 +15,14 @@ export default defineConfig({
         }),
       },
     }),
+    Pages({
+      routeBlockLang: 'yaml',
+    }),
     AutoImport({
       imports: [
         'vue',
-        'vue/macros',
         'vue-router',
+        'vue/macros',
         '@vueuse/core',
       ],
       dirs: [

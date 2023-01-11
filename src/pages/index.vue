@@ -15,10 +15,8 @@ const go = () => {
 <template>
   <div space-y-8 flex flex-col items-center>
     <div space-y-4>
-      <div>
-        <Icon name="ph:file-vue" text-3xl text-emerald-600 />
-      </div>
-      <p font-inter>
+      <Icon name="ph:file-vue" text-3xl text-emerald-600 />
+      <p>
         Opinionated Vue starter template
       </p>
     </div>
@@ -30,7 +28,11 @@ const go = () => {
         autocomplete="false"
         @keydown.enter="go"
       />
-      <button btn text-sm uppercase :disabled="!name" @click="go">
+      <button
+        btn text-sm uppercase
+        :disabled="!name"
+        @click="go"
+      >
         go
       </button>
     </div>
