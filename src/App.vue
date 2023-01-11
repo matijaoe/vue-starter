@@ -12,10 +12,10 @@
 
 <style>
 body {
-  --at-apply: bg-neutral-100 dark:bg-neutral-900 transition-colors duration-400 caret-emerald-600;
+  @apply bg-neutral-100 dark:bg-neutral-900 transition-colors duration-400 caret-emerald-600;
 }
 
 ::selection {
-  --at-apply: bg-emerald-300/30 dark:bg-emerald-300/20;
+  @apply bg-emerald-300/30 dark:bg-emerald-300/20;
 }
 </style>
