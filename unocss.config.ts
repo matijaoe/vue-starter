@@ -23,7 +23,10 @@ export default defineConfig({
           name: 'Satoshi',
           provider: 'fontshare',
         },
-        mono: 'IBM Plex Mono',
+        mono: {
+          name: 'IBM Plex Mono',
+          provider: 'google',
+        },
       },
     }),
   ],
