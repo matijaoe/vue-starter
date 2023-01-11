@@ -17,3 +17,7 @@ const name = computed(() => route.params.name)
     </RouterLink>
   </div>
 </template>
+
+<route>
+name: "hi"
+</route>

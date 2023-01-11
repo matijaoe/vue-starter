@@ -6,6 +6,8 @@
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
 
+- 🗂 [File based routing](./src/pages)
+
 - 📦 Components auto importing
 
 - 🫧 Auto imported APIs
@@ -13,14 +15,12 @@
 - 🛠️ [VueUse](https://vueuse.org/) - Collection of essential Vue Composition Utilities
 
 - 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
-  
+
 - 🍍 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue.
-
-
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-- 😃 Use any icons with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
+- 😃 Use any icon with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
 
 - 🦾 TypeScript
 
@@ -49,6 +49,8 @@
 
 ### Plugins
 
+- [Vue Router](https://github.com/vuejs/vue-router)
+  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
