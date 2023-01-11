@@ -1,10 +1,79 @@
-# matijao-vue-starter
+# Better Vue + UnoCSS template
 
-This template should help get you started developing with Vue 3 in Vite.
+    🚧 Work in progress
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
+
+- 📦 Components auto importing
+
+- 🫧 Auto imported APIs
+
+- 🛠️ [VueUse](https://vueuse.org/) - Collection of essential Vue Composition Utilities
+
+- 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
+  
+- 🍍 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue.
+
+
+
+- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+
+- 😃 Use any icons with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
+
+- 🦾 TypeScript
+
+- 🧹 ESLint config by [antfu](https://github.com/antfu/eslint-config)
+
+- ☁️ Deploy on Vercel, zero-config
+
+
+<br>
+
+## Pre-packed
+
+### UI Frameworks
+
+- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+  - [presetUno](https://github.com/unocss/unocss/tree/main/packages/preset-uno) - Tailwind / Windi CSS compact preset
+  - [presetAttributify](https://github.com/unocss/unocss/tree/main/packages/preset-attributify) - Provides Attributify Mode to other presets and rules
+  - [presetTypography](https://github.com/unocss/unocss/tree/main/packages/preset-typography) - The typography preset
+  - [presetWebFonts](https://github.com/unocss/unocss/tree/main/packages/preset-web-fonts) - Web fonts at ease
+  - [transformerDirectives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives) - Transformer for `@apply`、`@screen` and `theme()` directive in `<style>` tags
+
+### Icons
+
+- [Iconify](https://iconify.design) - use icons from any icon set
+- Find icons on [Icônes](https://icones.netlify.app/)
+
+### Plugins
+
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
+- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+
+## Use the template
+
+### GitHub Template
+
+[Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate).
+
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit mat2ja/vue-starter my-vue-app
+cd my-vue-app
+
+# Install dependencies
+pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+
+# Start dev **server**
+pnpm run dev
+```
 
 ## Type Support for `.vue` Imports in TS
 
@@ -20,21 +89,3 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm run build
-```
