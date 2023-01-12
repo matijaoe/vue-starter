@@ -6,7 +6,7 @@ const name = computed(() => route.params.name)
 <template>
   <div>
     <div>
-      <Icon name="ph:file-vue" text-4xl text-primary-600 />
+      <Icon name="fluent-emoji:alien" text-4xl text-primary-600 />
       <div mt-4>
         <p text-lg>
           Hi <span text-primary-600>{{ name }}!</span>
