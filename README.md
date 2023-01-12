@@ -14,7 +14,7 @@
 - 🫧 Auto imported APIs
 - 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
 - 🛠️ [VueUse](https://vueuse.org/) - Collection of essential Vue Composition Utilities
-- 🔮 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue.
+- 🔮 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 - 👽 Use any icon with zero setup, via [Iconify](https://docs.iconify.design/icon-components/vue/)
 - 💪🏻 TypeScript
@@ -47,7 +47,7 @@
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - File system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - Components auto import
-- [`unplugin-vue-macros`](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue.
+- [`unplugin-vue-macros`](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue
 
 ## Use the template
 
@@ -60,8 +60,8 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit mat2ja/vue-starter my-vue-app
-cd my-vue-app
+npx degit mat2ja/vue-starter myapp
+cd myapp
 
 # Install dependencies
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
