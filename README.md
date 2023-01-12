@@ -1,6 +1,6 @@
-# Better Vue + UnoCSS template
+# Complete Vue + UnoCSS template
 
-    🚧 Work in progress
+<img width="778" alt="Screenshot" src="https://user-images.githubusercontent.com/46557266/212078090-38777a46-8caa-418e-81b9-5853baee172c.png">
 
 ## Features
 
@@ -26,7 +26,7 @@
 
 - 🧹 ESLint config by [antfu](https://github.com/antfu/eslint-config)
 
-- ☁️ Deploy on Vercel, zero-config
+- ☁️ Deploy with zero-config
 
 
 <br>
@@ -41,6 +41,7 @@
   - [presetTypography](https://github.com/unocss/unocss/tree/main/packages/preset-typography) - The typography preset
   - [presetWebFonts](https://github.com/unocss/unocss/tree/main/packages/preset-web-fonts) - Web fonts at ease
   - [transformerDirectives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives) - Transformer for `@apply`、`@screen` and `theme()` directive in `<style>` tags
+ - [PostCSS nested](https://www.npmjs.com/package/postcss-nested)
 
 ### Icons
 
