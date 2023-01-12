@@ -5,11 +5,16 @@ const name = computed(() => route.params.name)
 
 <template>
   <div>
-    <div space-y-4>
-      <Icon name="ph:hand-waving" text-3xl text-emerald-600 />
-      <p font-medium>
-        Hi {{ name }}!
-      </p>
+    <div>
+      <Icon name="ph:file-vue" text-4xl text-primary-600 />
+      <div mt-4>
+        <p text-lg>
+          Hi <span text-primary-600>{{ name }}!</span>
+        </p>
+        <p opacity-75 text-xs font-mono mt-2>
+          [dynamic route example]
+        </p>
+      </div>
     </div>
 
     <RouterLink btn to="/" text-sm mt-6>

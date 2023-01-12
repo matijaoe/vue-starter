@@ -1,10 +1,9 @@
 <template>
   <main
-    container mx-auto p="x-4 y-10" min-h-screen
-    text="center neutral-700 dark:neutral-200" font-sans
-    space-y-8
+    container mx-auto p="x-4 y-12" min-h-screen
+    text="center base-700 dark:base-200" font-sans
+    space-y-6
   >
-    <TheNav />
     <RouterView />
     <TheFooter />
   </main>
@@ -12,10 +11,10 @@
 
 <style lang="postcss">
 body {
-  @apply bg-neutral-100 dark:bg-neutral-900 transition-colors duration-400 caret-emerald-600;
+  @apply bg-base-100 dark:bg-base-900 transition-colors duration-400 caret-primary;
 }
 
 ::selection {
-  @apply bg-emerald-300/30 dark:bg-emerald-300/20;
+  @apply bg-primary-400/15 dark:bg-primary-300/20;
 }
 </style>
