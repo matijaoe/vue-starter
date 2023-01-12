@@ -73,8 +73,11 @@ cd my-vue-app
 # Install dependencies
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 
-# Start dev **server**
-pnpm run dev
+# Start dev server
+pnpm dev
+
+# Build for production
+pnpm buuld
 ```
 
 ## Type Support for `.vue` Imports in TS

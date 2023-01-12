@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Icon as Iconify } from '@iconify/vue'
+
 const props = defineProps<{
   name: string
   size?: string
