@@ -6,6 +6,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 import Pages from 'vite-plugin-pages'
+
 export default defineConfig({
   plugins: [
     VueMacros({
@@ -36,6 +37,13 @@ export default defineConfig({
     }),
     Unocss(),
   ],
+  css: {
+    postcss: {
+      plugins: [
+        require('postcss-nested'),
+      ],
+    },
+  },
   resolve: {
     alias: {
       '~~': fileURLToPath(new URL('./', import.meta.url)),

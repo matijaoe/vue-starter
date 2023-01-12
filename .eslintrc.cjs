@@ -6,6 +6,7 @@ module.exports = {
   extends: '@antfu',
   rules: {
     'no-console': 'warn',
+    'no-tabs': 'off',
     'curly': [
       'error',
     ],

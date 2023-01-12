@@ -12,13 +12,14 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore --fix",
     "deploy:vercel": "npx vercel",
-    "deploy:netlify": "npx netlify deploy",
+    "deploy:ntl": "npx ntl deploy",
     "deploy:surge": "npx surge dist"
   },
   "dependencies": {
     "@iconify/vue": "^4.0.2",
     "@vueuse/core": "^9.10.0",
     "pinia": "^2.0.28",
+    "postcss-nested": "^6.0.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

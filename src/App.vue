@@ -10,7 +10,7 @@
   </main>
 </template>
 
-<style>
+<style lang="postcss">
 body {
   @apply bg-neutral-100 dark:bg-neutral-900 transition-colors duration-400 caret-emerald-600;
 }
