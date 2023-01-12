@@ -77,7 +77,12 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 pnpm dev
 
 # Build for production
-pnpm buuld
+pnpm build
+
+# Deploy anywhere
+pnpm deploy:vercel # vercel
+pnpm deploy:ntl # netlify
+pnpm deploy:surge # surge.sh
 ```
 
 ## Type Support for `.vue` Imports in TS
