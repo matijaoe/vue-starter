@@ -5,7 +5,7 @@ const router = useRouter()
 const go = () => {
   if (name) {
     router.push({
-      name: 'hi',
+      name: 'hello',
       params: { name },
     })
   }

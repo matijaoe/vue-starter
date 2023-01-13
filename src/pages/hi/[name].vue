@@ -1,11 +1,15 @@
 <script lang="ts" setup>
-const route = useRoute()
+definePage({
+  name: 'hello',
+})
+
+const route = useRoute('hello')
 const name = computed(() => route.params.name)
 </script>
 
 <template>
   <div>
-    <div>
+    <div v-if="name">
       <Icon name="fluent-emoji:alien" text-4xl text-primary-600 />
       <div mt-4>
         <p text-lg>
@@ -22,7 +26,3 @@ const name = computed(() => route.params.name)
     </RouterLink>
   </div>
 </template>
-
-<route>
-name: "hi"
-</route>

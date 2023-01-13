@@ -2,7 +2,8 @@
 import { isDark, toggleDark } from '../composables/dark'
 
 const links = [
-  { to: '/', label: 'home', icon: 'ph:house' },
+  { to: '/', label: 'Home', icon: 'ph:house' },
+  { to: '/does-not-exist', label: 'Page that does not exists', icon: 'ph:warning' },
 ]
 </script>
 
@@ -13,22 +14,30 @@ const links = [
         v-for="link in links"
         :key="link.to"
         :to="link.to"
+        :aria-label="link.label"
+        :title="link.label"
         active-class="!text-primary-600 opacity-100"
         icon-btn
       >
         <Icon :name="link.icon" />
       </RouterLink>
 
-      <button icon-btn @click="toggleDark()">
+      <button
+        icon-btn
+        aria-label="Toggle theme"
+        title="Toggle theme"
+        @click="toggleDark()"
+      >
         <Icon :name="isDark ? 'ph:sun' : 'ph:moon'" />
       </button>
 
       <a
         icon-btn
         rel="noreferrer"
+        aria-label="GitHub"
+        title="GitHub"
         href="https://github.com/mat2ja/vue-starter"
         target="_blank"
-        title="GitHub"
       >
         <Icon name="ph:github-logo" />
       </a>
