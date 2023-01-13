@@ -19,8 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
-      "vite-plugin-pages/client",
-      "typed-router.d.ts",
       "unplugin-vue-macros/macros-global"
     ],
     "paths": {

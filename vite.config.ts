@@ -11,7 +11,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     VueRouter({
-      dts: './src/typed-router.d.ts',
+      dts: 'src/typed-router.d.ts',
     }),
     VueMacros({
       plugins: {
@@ -31,10 +31,10 @@ export default defineConfig({
         'src/composables/**',
         'src/stores/**',
       ],
-      dts: './src/auto-imports.d.ts',
+      dts: 'src/auto-imports.d.ts',
     }),
     Components({
-      dts: './src/components.d.ts',
+      dts: 'src/components.d.ts',
     }),
     Unocss(),
   ],
