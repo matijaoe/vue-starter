@@ -1,5 +1,7 @@
 # Vue ✕ UnoCSS starter template
 
+> Fully featured Vue 3 starter template
+
 |🌞|🌚|
 |---|---|
 |<img width="445" alt="Light mode" src="https://user-images.githubusercontent.com/46557266/213271710-f59e6cf8-571e-4621-9fb9-2a58bd877bd6.png">|<img width="441" alt="Dark mode" src="https://user-images.githubusercontent.com/46557266/213271718-838259c8-2e71-4f0f-9bd5-fa6a5eef0d1c.png">|
@@ -43,14 +45,14 @@
 
 ## Use the template
 
+### GitHub Template
 [Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate)
-<br>
-__or__
-<br>
+
+### Local
 Clone the template locally, with no git history (using [`unjs/giget`](https://github.com/unjs/giget))
 
 ```bash
-npx giget gh:mat2ja/vue-starter myapp
+npx giget gh:mat2ja/vue-starter <name>
 ```
 
 ```bash
@@ -79,3 +81,10 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
     1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
     2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+
+
+## Related 
+
+- 🧚🏻 [`nuxt-starter`](https://github.com/mat2ja/nuxt-starter)
+- 🔮 [`vue-anu-starter`](https://github.com/mat2ja/vue-starter)
