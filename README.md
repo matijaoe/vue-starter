@@ -19,7 +19,7 @@
 - 🔮 [Vue Macros](https://vue-macros.sxzz.moe/) - Explore and extend more macros and syntax sugar to Vue
 - 👽 [Iconify](https://docs.iconify.design/icon-components/vue/) - Over 100,000 icons across 100+ icon packs
 - 💪🏻 TypeScript
-- 🧹 ESLint ([antfu config](https://github.com/antfu/eslint-config))
+- 🧹 ESLint / [antfu config](https://github.com/antfu/eslint-config)
 - ☁️ Deploy with zero config
 
 ## Plugins
@@ -87,4 +87,4 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 ## Related 
 
 - 🧚🏻 [`nuxt-starter`](https://github.com/mat2ja/nuxt-starter)
-- 🔮 [`vue-anu-starter`](https://github.com/mat2ja/vue-starter)
+- 🔮 [`vue-anu-starter`](https://github.com/mat2ja/vue-anu-starter)
