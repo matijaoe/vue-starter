@@ -8,11 +8,11 @@ const name = computed(() => route.params.name)
 </script>
 
 <template>
-  <div>
-    <div v-if="name">
-      <Icon name="fluent-emoji:alien" text-4xl text-primary-600 />
+  <div space-y-6>
+    <div>
+      <Icon i-fluent-emoji:alien text-4xl text-primary-600 />
       <div mt-4>
-        <p text-lg>
+        <p v-if="name" text-lg>
           Hi <span text-primary-600>{{ name }}!</span>
         </p>
         <p opacity-75 text-xs font-mono mt-2>
@@ -21,7 +21,7 @@ const name = computed(() => route.params.name)
       </div>
     </div>
 
-    <RouterLink btn to="/" text-sm mt-6>
+    <RouterLink btn to="/" text-sm>
       Back
     </RouterLink>
   </div>

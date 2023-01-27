@@ -15,7 +15,7 @@ const go = () => {
 <template>
   <div flex flex-col items-center gap-6 max-w-xs mx-auto>
     <div>
-      <Icon name="ph:file-vue" text-4xl text-primary-600 />
+      <Icon i-ph:file-vue text-4xl text-primary-600 />
       <div mt-4>
         <p>
           Opinionated Vue starter template

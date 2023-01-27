@@ -2,6 +2,7 @@ import { theme } from '@unocss/preset-mini'
 import {
   defineConfig,
   presetAttributify,
+  presetIcons,
   presetTypography,
   presetUno,
   presetWebFonts,
@@ -24,6 +25,14 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetTypography(),
+    presetIcons({
+      autoInstall: true,
+      scale: 1.25,
+      extraProperties: {
+        'display': 'inline-block',
+        'vertical-align': 'middle',
+      },
+    }),
     presetWebFonts({
       fonts: {
         sans: {
