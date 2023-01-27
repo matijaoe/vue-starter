@@ -1,12 +1,12 @@
 <script lang="tsx" setup>
-const name = $ref('')
+const name = ref('')
 const router = useRouter()
 
 const go = () => {
   if (name) {
     router.push({
       name: 'hello',
-      params: { name },
+      params: { name: name.value },
     })
   }
 }
