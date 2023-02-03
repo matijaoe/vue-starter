@@ -10,7 +10,7 @@ const name = computed(() => route.params.name)
 <template>
   <div space-y-6>
     <div>
-      <Icon i-fluent-emoji:alien text-4xl text-primary-600 />
+      <i i-fluent-emoji:alien text-4xl text-primary-600 />
       <div mt-4>
         <p v-if="name" text-lg>
           Hi <span text-primary-600>{{ name }}!</span>

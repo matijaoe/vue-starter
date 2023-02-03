@@ -19,7 +19,7 @@ const links = [
         active-class="!text-primary-600 opacity-100"
         icon-btn
       >
-        <Icon :class="link.icon" />
+        <i :class="link.icon" />
       </RouterLink>
 
       <button
@@ -28,7 +28,7 @@ const links = [
         title="Toggle theme"
         @click="toggleDark()"
       >
-        <Icon :class="isDark ? 'i-ph:sun ' : 'i-ph:moon'" />
+        <i :class="isDark ? 'i-ph:sun ' : 'i-ph:moon'" />
       </button>
 
       <a
@@ -39,7 +39,7 @@ const links = [
         href="https://github.com/mat2ja/vue-starter"
         target="_blank"
       >
-        <Icon i-ph:github-logo />
+        <i i-ph:github-logo />
       </a>
     </nav>
   </footer>

@@ -24,6 +24,7 @@ export default defineConfig({
         VueRouterAutoImports,
         'vue/macros',
         '@vueuse/core',
+        'pinia',
       ],
       dirs: [
         'src/composables/**',
