@@ -2,7 +2,7 @@
   "name": "vue-starter",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@7.20.0",
+  "packageManager": "pnpm@8.1.0",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "run-p type-check build-only && cp dist/index.html dist/200.html",
