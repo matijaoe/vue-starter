@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { modelValue: value } = defineModel<{
+const { modelValue: value } = defineModels<{
   modelValue: string
 }>()
 </script>
