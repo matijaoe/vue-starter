@@ -1,4 +1,10 @@
 <script lang="ts" setup>
+import type { InputHTMLAttributes } from 'vue'
+
+interface Props extends InputHTMLAttributes {}
+
+defineProps<Props>()
+
 const { modelValue: value } = defineModels<{
   modelValue: string
 }>()
@@ -7,8 +13,8 @@ const { modelValue: value } = defineModels<{
 <template>
   <input
     v-model="value"
+    :placeholder="placeholder"
     type="text"
-    v-bind="$attrs"
     p="x-4 y-2"
     w="full sm:64"
     text="center current"

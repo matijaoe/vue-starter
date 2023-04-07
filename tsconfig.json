@@ -32,7 +32,8 @@
   },
   "vueCompilerOptions": {
     "plugins": [
-      "@vue-macros/volar/define-models"
+      "@vue-macros/volar/define-models",
+      "@vue-macros/volar/define-props-refs"
     ]
   },
   "exclude": [
