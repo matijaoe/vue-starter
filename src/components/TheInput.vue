@@ -1,13 +1,17 @@
 <script lang="ts" setup>
 import type { InputHTMLAttributes } from 'vue'
 
-interface Props extends InputHTMLAttributes {}
-
-defineProps<Props>()
-
-const { modelValue: value } = defineModels<{
+interface Props extends InputHTMLAttributes {
   modelValue: string
+}
+
+const props = defineProps<Props>()
+
+const emit = defineEmits<{
+  (e: 'update:modelValue', value?: string): void
 }>()
+
+const value = useVModel(props, 'modelValue', emit)
 </script>
 
 <template>
@@ -22,6 +26,6 @@ const { modelValue: value } = defineModels<{
     transition-colors duration-400
     border="~ rounded base-200 dark:base-800"
     outline="none active:none"
-    placeholder:opacity-50 placeholder:text-current
+    class="placeholder:opacity-50 placeholder:text-current"
   >
 </template>
