@@ -46,7 +46,7 @@ devDependencies:
     specifier: ^8.4.21
     version: 8.4.21
   postcss-nesting:
-    specifier: ^11.2.2
+    specifier: 11.2.2
     version: 11.2.2(postcss@8.4.21)
   typescript:
     specifier: ~5.0.4

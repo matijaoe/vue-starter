@@ -34,7 +34,7 @@
   - [`transformerDirectives`](https://github.com/unocss/unocss/tree/main/packages/transformer-directives) - Transformer for `@apply`, `@screen` and `theme()` directives
   - [`transformerVariantGroup`](https://github.com/unocss/unocss/tree/main/packages/transformer-variant-group) - Enables the [variant group feature of Windi CSS](https://windicss.org/features/variant-groups.html) for UnoCSS
 - [Post CSS](https://postcss.org/)
-  - [`postcss-nested`](https://github.com/postcss/postcss-nested)
+  - [`postcss-nesting`](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting)
 
 ### Vite Plugins
 
