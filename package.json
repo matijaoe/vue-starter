@@ -19,7 +19,7 @@
     "@vueuse/core": "^9.13.0",
     "pinia": "^2.0.34",
     "postcss-nested": "^6.0.1",
-    "vue": "^3.2.47",
+    "vue": "3.3.0-alpha.9",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

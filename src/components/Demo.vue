@@ -26,6 +26,7 @@ function go() {
   </div>
 
   <div flex flex-col gap-4 items-center>
+    <div class="bg-blue-400/50 hover:animate-pul" />
     <TheInput
       v-model="name"
       placeholder="What's your name?"
