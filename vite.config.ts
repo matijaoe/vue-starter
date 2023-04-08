@@ -35,7 +35,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
-        require('postcss-nested'),
+        require('postcss-nesting'),
       ],
     },
   },

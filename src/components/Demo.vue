@@ -20,7 +20,7 @@ function go() {
         Opinionated Vue starter template
       </p>
       <p opacity-75 text-xs font-mono leading-relaxed mt-3>
-        UnoCSS . Pinia . VueUse . Vue Macros . Iconify . CSS Nesting . Auto imports . File based routing . ESLint
+        UnoCSS . Pinia . VueUse . CSS Nesting . Auto imports . File based routing . ESLint
       </p>
     </div>
   </div>
