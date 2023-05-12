@@ -1,5 +1,6 @@
 import { URL, fileURLToPath } from 'node:url'
 import Vue from '@vitejs/plugin-vue'
+import postcssNesting from 'postcss-nesting'
 import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
@@ -9,7 +10,12 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
-    Vue({}),
+    Vue({
+      script: {
+        defineModel: true,
+        propsDestructure: true,
+      },
+    }),
     VueRouter({
       dts: 'src/typed-router.d.ts',
     }),
@@ -35,7 +41,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
-        require('postcss-nesting'),
+        postcssNesting,
       ],
     },
   },

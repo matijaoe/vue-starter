@@ -1,22 +1,14 @@
 <script lang="ts" setup>
-import type { InputHTMLAttributes } from 'vue'
+// import type { InputHTMLAttributes } from 'vue'
 
-interface Props extends InputHTMLAttributes {
-  modelValue: string
-}
+// defineProps<InputHTMLAttributes>()
 
-const props = defineProps<Props>()
-
-const emit = defineEmits<{
-  (e: 'update:modelValue', value?: string): void
-}>()
-
-const value = useVModel(props, 'modelValue', emit)
+const modelValue = defineModel<string>()
 </script>
 
 <template>
   <input
-    v-model="value"
+    v-model="modelValue"
     v-bind="$attrs"
     type="text"
     p="x-4 y-2"
