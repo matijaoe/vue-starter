@@ -1,8 +1,4 @@
 <script lang="ts" setup>
-// import type { InputHTMLAttributes } from 'vue'
-
-// defineProps<InputHTMLAttributes>()
-
 const modelValue = defineModel<string>()
 </script>
 
