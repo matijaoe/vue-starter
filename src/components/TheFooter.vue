@@ -36,7 +36,7 @@ const links = [
         rel="noreferrer"
         aria-label="GitHub"
         title="GitHub"
-        href="https://github.com/mat2ja/vue-starter"
+        href="https://github.com/matijaoe/vue-starter"
         target="_blank"
       >
         <i i-ph:github-logo />
