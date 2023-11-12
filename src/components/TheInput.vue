@@ -11,9 +11,10 @@ const modelValue = defineModel<string>()
     w="full sm:64"
     text="center current"
     bg="transparent"
-    transition-colors duration-400
+    transition-colors
+    duration-400
     border="~ rounded base-200 dark:base-800"
     outline="none active:none"
-    class="placeholder:opacity-50 placeholder:text-current"
+    class="placeholder:text-current placeholder:opacity-50"
   >
 </template>

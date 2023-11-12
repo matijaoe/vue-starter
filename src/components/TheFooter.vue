@@ -8,7 +8,7 @@ const links = [
 </script>
 
 <template>
-  <footer py-4 flex items-center justify-center gap-4>
+  <footer flex items-center justify-center gap-4 py-4>
     <nav flex items-center justify-center gap-3 text-xl>
       <RouterLink
         v-for="link in links"

@@ -1,7 +1,13 @@
 <template>
   <main
-    container mx-auto p="x-4 y-12" min-h-screen space-y-6
-    text="center base-700 dark:base-200" font-sans caret-primary
+    p="x-4 y-12"
+    text="center base-700 dark:base-200"
+    mx-auto
+    min-h-screen
+    font-sans
+    caret-primary
+    container
+    space-y-6
   >
     <RouterView />
     <TheFooter />

@@ -19,14 +19,14 @@ function go() {
       <p>
         Opinionated Vue starter template
       </p>
-      <p opacity-75 text-xs font-mono leading-relaxed mt-3>
+      <p mt-3 text-xs leading-relaxed font-mono opacity-75>
         UnoCSS . Pinia . VueUse . CSS Nesting . Auto imports . File based routing . ESLint
       </p>
     </div>
   </div>
 
-  <div flex flex-col gap-4 items-center>
-    <div class="bg-blue-400/50 hover:animate-pul" />
+  <div flex flex-col items-center gap-4>
+    <div class="hover:animate-pul bg-blue-400/50" />
     <TheInput
       v-model="name"
       placeholder="What's your name?"
@@ -34,7 +34,9 @@ function go() {
       @keydown.enter="go"
     />
     <button
-      btn text-sm uppercase
+      text-sm
+      uppercase
+      btn
       :disabled="!name"
       @click="go"
     >

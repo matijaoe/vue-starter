@@ -15,13 +15,13 @@ const name = computed(() => route.params.name)
         <p v-if="name" text-lg>
           Hi <span text-primary-600>{{ name }}!</span>
         </p>
-        <p opacity-75 text-xs font-mono mt-2>
+        <p mt-2 text-xs font-mono opacity-75>
           [dynamic route example]
         </p>
       </div>
     </div>
 
-    <RouterLink btn to="/" text-sm>
+    <RouterLink to="/" text-sm btn>
       Back
     </RouterLink>
   </div>
