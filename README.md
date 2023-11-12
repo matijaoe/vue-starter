@@ -18,7 +18,7 @@
 - 🍍 [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
 - 🛠️ [VueUse](https://vueuse.org/) - Collection of essential Vue Composition Utilities
 - 💪🏻 TypeScript
-- 🧹 ESLint / [antfu config](https://github.com/antfu/eslint-config)
+- 🧹 ESLint / [matijaoe config](https://github.com/matijaoe/eslint-config)
 - ☁️ Deploy with zero config
 
 ## Plugins
