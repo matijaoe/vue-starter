@@ -3,6 +3,7 @@
     p="x-4 y-12"
     text="center base-700 dark:base-200"
     mx-auto
+    mt-8vh
     min-h-screen
     font-sans
     caret-primary
