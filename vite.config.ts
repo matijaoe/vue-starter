@@ -10,12 +10,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
-    Vue({
-      script: {
-        defineModel: true,
-        propsDestructure: true,
-      },
-    }),
+    Vue(),
     VueRouter({
       dts: 'src/typed-router.d.ts',
     }),
